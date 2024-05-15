@@ -1,0 +1,12 @@
+let a = window.prompt("Ingrese su altura en pulgadas");
+let b = window.prompt("Ingrese su peso en libras");
+
+a=parseFloat(a);
+
+b=parseFloat(b);
+
+console.log(`su altura es de ${a*2.54} cm y su peso es de ${b/2.22046}`);
+
+a/=100;
+
+console.log(`su BMI es de ${b/(a**2)}`);

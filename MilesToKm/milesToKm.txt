@@ -1,0 +1,4 @@
+let a = window.prompt("Valor en millas");
+let b = 0;
+a = parseFloat(a);b = 1.60934 * a;
+console.log(`La distancia de ${a} millas es igual a ${b} kilómetros`);
