@@ -1,0 +1,5 @@
+let arr1=["Milk","bread","apples"];
+
+console.log("length of the list ", arr1.length);
+arr1.splice(arr1.indexOf("bread"),1,"Bananas");
+console.log(arr1);
