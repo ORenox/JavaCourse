@@ -1,0 +1,14 @@
+const list = [];
+list.push("milk","bread","apples");
+list.splice(list.indexOf("bread"),1,"Bananas","Eggs");
+list.pop();
+list.sort();
+console.log("the index value of milk is ", list.indexOf("milk"));
+list.splice(list.indexOf("bananas"),0,"carrots","lettuce");
+
+const list2=["juice","pop"];
+
+const list3=list.concat(list2,list2);
+console.log(list3.indexOf("pop",list3.indexOf("pop")+1));
+
+console.log(list3);
